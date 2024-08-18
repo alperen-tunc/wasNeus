@@ -20,15 +20,25 @@
       "static/chunks/main-app.js",
       "static/chunks/app/products/[productID]/reviews/[reviewsID]/page.js"
     ],
-    "/docs/[...slug]/page": [
+    "/docs/[[...slug]]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/docs/[...slug]/page.js"
+      "static/chunks/app/docs/[[...slug]]/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
+    ],
+    "/products/[productID]/reviews/[reviewsID]/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/products/[productID]/reviews/[reviewsID]/not-found.js"
     ]
   }
 }

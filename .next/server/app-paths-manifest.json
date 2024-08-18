@@ -2,5 +2,5 @@
   "/page": "app/page.js",
   "/products/[productID]/page": "app/products/[productID]/page.js",
   "/products/[productID]/reviews/[reviewsID]/page": "app/products/[productID]/reviews/[reviewsID]/page.js",
-  "/docs/[...slug]/page": "app/docs/[...slug]/page.js"
+  "/docs/[[...slug]]/page": "app/docs/[[...slug]]/page.js"
 }
