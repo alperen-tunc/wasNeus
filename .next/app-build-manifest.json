@@ -15,20 +15,30 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/_not-found/page": [
+    "/products/[productID]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/products/[productID]/page.js"
     ],
-    "/dashboard/page": [
+    "/products/[productID]/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/page.js"
+      "static/chunks/app/products/[productID]/layout.js"
     ],
-    "/(auth)/login/page": [
+    "/products/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/login/page.js"
+      "static/chunks/app/products/page.js"
+    ],
+    "/(auth)/(with-auth-layout)/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(auth)/(with-auth-layout)/login/page.js"
+    ],
+    "/(auth)/(with-auth-layout)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(auth)/(with-auth-layout)/layout.js"
     ]
   }
 }
