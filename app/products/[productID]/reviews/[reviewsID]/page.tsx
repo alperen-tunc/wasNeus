@@ -4,7 +4,7 @@ export default function ReviewsDetail({
     params,
 }: {
     params: {
-        productID: string;  
+        productId: string;  
         reviewsID: string;
     };
 }) {
@@ -13,6 +13,6 @@ export default function ReviewsDetail({
         notFound();
     } else {
     return (
-        <h1>Review {params.reviewsID} for product {params.productID}</h1>
+        <h1>Review {params.reviewsID} for product {params.productId}</h1>
     )}
 }

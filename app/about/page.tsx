@@ -1,5 +1,9 @@
+export const metadata = {
+    title: "About Alps neue Wissen"
+}
+
 export default function Home() {
     
-    return <h1>Abaut is working</h1>
+    return <h1>About is working</h1>
 
 } 

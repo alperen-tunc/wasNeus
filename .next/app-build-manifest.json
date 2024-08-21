@@ -1,20 +1,5 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/layout.js"
-    ],
-    "/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
-    ],
     "/products/[productID]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -25,20 +10,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/products/[productID]/layout.js"
     ],
-    "/products/page": [
+    "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/products/page.js"
+      "static/chunks/app/layout.js"
     ],
-    "/(auth)/(with-auth-layout)/login/page": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/(with-auth-layout)/login/page.js"
-    ],
-    "/(auth)/(with-auth-layout)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/(with-auth-layout)/layout.js"
+      "static/chunks/app/not-found.js"
     ]
   }
 }
